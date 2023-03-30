@@ -31,7 +31,12 @@ def roll_dice(dice):
     rolls = [random.randint(1, sides) for _ in range(count)]
     total = sum(rolls) + added
     # Build the result string
-    result = '{}:	{} +{}'.format(dice, '+'.join(str(r) for r in rolls),added)  # Add the dice notation and the individual rolls and added value
+    # Add the dice notation and the individual rolls
+    result = '{}:	{}'.format(dice, ' + '.join(str(r) for r in rolls))  
+    # If added is not empty
+    if added>0:
+        #add it to result in brackets
+        result += ' (+{})'.format(added)  
     result += ' = {}'.format(total)  # Add the total roll value 
     return result
 

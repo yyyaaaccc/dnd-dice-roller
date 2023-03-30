@@ -22,19 +22,19 @@ For example:
 
 # Example usage and results
 
-`python roll.py d20`
+```
+> python roll.py d20  
+d20: 15 = 15
 
-> d20: 15 = 15
+> python roll.py 1d100
+1d100: 27 = 27
 
-`python roll.py 1d100`
-
-> 1d100: 27 = 27
-
-`python roll.py d20+4 2d6+3 d4+1`
-
-> d20+4:	8 +4 = 12  
-> 2d6+3:	1+2 +3 = 6    
-> d4+1:	3 +1 = 4  
+> python roll.py d20+4 2d6+3 d4+1
+d20+4:  6 (+4) = 10  
+2d6+0:  4 + 4 = 8  
+d4+1:   2 (+1) = 3   
+d1:     1 = 1  
+```
 
 
 
