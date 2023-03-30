@@ -2,7 +2,7 @@
 # Summary
 
 ![roll.py logo](/assets/images/d20_small.png)  
-Roll the specified dice and return the result as a string.
+Roll the specified dice using commandline and return the result as a string.
 
 # Parameters
 
