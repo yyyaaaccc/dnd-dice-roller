@@ -32,7 +32,7 @@ def roll_dice(dice):
     total = sum(rolls) + added
     result = '{}: {}'.format(dice, '+'.join(str(r) for r in rolls))
     result += ' + {}'.format(added) if added else ''
-    result += ' = {}'.format(total) if count > 1 else ''
+    result += ' = {}'.format(total) 
     return result
 
 if __name__ == '__main__':
