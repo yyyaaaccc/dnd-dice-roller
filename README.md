@@ -20,9 +20,20 @@ For example:
 - static value can be added to each rolled dice, e.g. 'd20+2'
 
 # Example usage and results
+
+### python roll.py d20
+
+> d20: 15 = 15
+
+### python roll.py 1d100
+
+> 1d100: 27 = 27
+
 ### python roll.py d20+4 2d6 d4+1
-output:  
-d20+4: 5 + 4  
-2d6: 6+6 = 12  
-d4+1: 3 + 1  
+
+> d20+4: 5 + 4  
+> 2d6: 6+6 = 12  
+> d4+1: 3 + 1  
+
+
 
